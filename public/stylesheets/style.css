@@ -1,8 +1,39 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+#nav{
+  width: 99%;
+  text-align: center;
+  background-color: black;
+  display: flex;
+  justify-content: center;
 }
 
-a {
-  color: #00B7FF;
+.navlink{
+  padding: 10px;
+  background-color: white;
+}
+
+.navlink:hover{
+  background-color: red;
+}
+
+.title{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px;
+}
+
+#featuredmovies{
+  display: flex;
+  justify-content: center;
+  column-count: 3;
+  flex-wrap: wrap;
+
+}
+
+.homemovie{
+  margin: 30px;
+  border-color: black;
+  border-style: solid;
+  width: 400px;
+  height: 600px;
 }
