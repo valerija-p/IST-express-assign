@@ -1,3 +1,18 @@
+$.ajax({
+  type: "post",
+  url:"/api",
+  headers:{
+    "some-Header":"Some-Header-Value"
+  },
+  success: function(data){
+    console.log(data);
+  }
+})
+
+
+
+
+
 function toggleDark() {
   let body = document.body;
 
